@@ -29,12 +29,9 @@ if zadacha == 3:
     x = int(input())
     print("Введите второе число")
     y = int(input())
-    if y == 0:
-        print("На ноль делить нельзя")
-    else:
-        otvet = x / y
-        stroka = str(otvet)
-        print("Ответ: ", stroka)
+    otvet = x / y
+    stroka = str(otvet)
+    print("Ответ: ", stroka)
 if zadacha == 4:
     print("Введите первое число")
     x = int(input())
