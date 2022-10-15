@@ -1,0 +1,8 @@
+spisok = [23213, 3213, 111, 2222, 554546, 66656665675788577567868, 2, 10, 15]
+sm = sum(spisok)
+k = len(spisok)
+sr = sm / k
+for i in range(k):
+  chis = spisok[i]
+  if chis > sr:
+    print(chis)
