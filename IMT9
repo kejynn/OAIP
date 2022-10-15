@@ -1,0 +1,4 @@
+rost = int(input("Введите рост: ")) / 100
+ves = int(input("Введите вес: "))
+IMT = ves / rost ** 2
+print("Индекс массы тела: ", IMT)
