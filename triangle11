@@ -1,0 +1,10 @@
+x = int(input("Первая сторона равна: "))
+y = int(input("Вторая сторона равна: "))
+z = int(input("Третья сторона равна: "))
+xy = x + y
+xz = x + z
+yz = y + z
+if xy > z and xz > y and yz > x:
+  print("Треугольник в тренде")
+else:
+  print("Треугольник кринж")
