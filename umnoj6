@@ -1,0 +1,6 @@
+x = int(input("Введите число: "))
+y = int(input("Уножить на: "))
+p = 0
+for i in range(y):
+  p = p + x
+print(p)
