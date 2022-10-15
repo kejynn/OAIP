@@ -1,0 +1,6 @@
+spisok = [23213, 3213, 111, 2222, 554546, 66656665675788577567868, 2, 10, 15]
+k = int(input("Введите количество чисел: "))
+for i in range(k):
+  m = max(spisok)
+  print(m)
+  spisok.remove(m)
