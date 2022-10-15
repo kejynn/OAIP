@@ -1,0 +1,12 @@
+spisok = [23213, 3213, 111, 2222, 554546, 66656665675788577567868, 2, 10, 15]
+spisokchet = []
+spisoknechet = []
+k = len(spisok)
+for i in range(k):
+  chis = spisok[i]
+  if chis % 2 == 0:
+    spisokchet.append(chis)
+  elif chis % 2 == 1:
+    spisoknechet.append(chis)
+print(spisokchet)
+print(spisoknechet)
